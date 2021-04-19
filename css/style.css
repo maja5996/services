@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #797979;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #797979;
+}
+nav ul li a:hover {
+  color: #f75311;
+}
+
+section {
+  width: 100%;
+}
+
+.sec1 {
+  background-image: url("../images/bkg1.jpg");
+  height: 40em;
+  position: relative;
+  margin-bottom: 2em;
+}
+.sec1 .naslovi {
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
+}
+.sec1 .naslovi h1 {
+  text-align: center;
+  color: #f75311;
+  font-size: 2em;
+  border-bottom: 1px solid #f75311;
+}
+.sec1 .naslovi h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #797979;
+}
+
+.sec2 h1 {
+  text-align: center;
+  color: #f75311;
+  font-size: 2em;
+  border-bottom: 1px solid #f75311;
+}
+.sec2 .wrap1,
+.sec2 .wrap2 {
+  width: 80%;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.wrap1 p {
+  text-align: center;
+  white-space: normal;
+  padding: 20px;
+}
+.wrap1 .col1 {
+  width: 50%;
+  display: inline-block;
+  white-space: normal;
+  padding: 20px;
+  text-align: justify;
+}
+
+.col2 {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 2em;
+  margin: 0.5em 10px;
+  white-space: normal;
+}
+.col2 h3 {
+  color: #f75311;
+  padding-bottom: 20px;
+}
+.col2 img {
+  border-radius: 50%;
+  width: 30%;
+}
+.col2 p {
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
+.sec3:before, .sec3:after {
+  content: "";
+  display: block;
+}
+.sec3:after {
+  clear: both;
+}
+.sec3 h1 {
+  color: #f75311;
+  font-size: 2em;
+  border-bottom: 1px solid #f75311;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrap3 {
+  width: 80%;
+  display: inline-block;
+}
+.wrap3 form {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  margin-top: 5em;
+}
+.wrap3 img {
+  float: right;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  width: 25%;
+  margin: 13px 50px 0 0;
+  float: left;
+  color: #f75311;
+}
+form input,
+form textarea {
+  width: 50%;
+  padding: 5px 15px;
+  margin: 5px;
+  border: 1px solid #f75311;
+}
+form input[type=submit] {
+  width: 20%;
+  float: right;
+  background: #f75311;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: blue;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+
+  .sec1 .naslovi {
+    top: 46%;
+    left: 0;
+  }
+
+  .wrap1 .col1 {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0.9em;
+  }
+
+  .wrap2 .col2 {
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+  }
+
+  .wrap3 {
+    padding-left: 5em;
+    font-size: 0.9em;
+  }
+  .wrap3 img {
+    display: none;
+  }
+  .wrap3 form {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
